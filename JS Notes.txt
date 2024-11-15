@@ -1,2 +1,32 @@
 JS Notes
+ • High level, interpreted programming language
+ • Conforms to the ECMAScript specification
+ • Multi-paradigm
+ • Runs on the client/browser as well as on the server (Node.js)
+
+Why learn javascript?
+ • It is the programming language of the browser
+ • Build very interactive user interfaces with frameworks like React
+ • Used in building very fast server side and full stack application
+ • Used in mobile development (React Native, NativeScript, Ionic)
+ • Used in desktop application development(Electron JS)
+
+Data Types:
+var //Globally scoped
+let //you can reassign values with this data type
+const //short for constant which means it cannot be changed or reassigned. Use them when you know that you won't reassign the values
+
+Difference between == and ===
+With ==, it matches the values while the === matches the data type
+
+Ternary Operators:
+const color = x > 10 ? 'red' : 'blue'
+? - this is the ternary operator and it represents then
+: - this means else
+
+Arrow Functions Syntax:
+(data type) (variable name) = (expression) =>
+	(body of the code/operations)
+
+DOM - Document Object Model
 
